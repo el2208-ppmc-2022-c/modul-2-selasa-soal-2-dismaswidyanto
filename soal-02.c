@@ -26,7 +26,6 @@ int main() {
     char filename[20];
     scanf("%s",filename);
     char array[MAX_ROW][STRING_SIZE]; 
-    char printed_string[STRING_SIZE];
 
     int prev_state, curr_state;
     int count,max_count;
@@ -78,13 +77,11 @@ void readFile(char *filename, char array[MAX_ROW][STRING_SIZE]) {
         return;    
     }
 
-    char line[20]; // Variabel penyimpan baris dari file sementara  
-    char* value; // Token penyimpan string sementara untuk parsing
+    char line[STRING_SIZE]; // Variabel penyimpan baris dari file sementara  
 
     //baca banyak testcase
     fgets(line,STRING_SIZE,fp);
-    value = strtok(line,",");
-    N=atoi(value);
+    N=atoi(line);
 
     //baca matriks
     for(int i=0;i<N;i++) {
