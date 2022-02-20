@@ -35,7 +35,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "file4.txt",
-      "output": "kacang\r\nPEMROGRAMAN\r\n20212020\r\npassword\r\n455",
+      "output": "rpne\r\nkct\r\noia\r\ncuya\r\nKUEAGX\r\nFOBKX\r\njlbvm\r\nWLVSVF\r\nznky\r\nOFU",
       "comparison": "included",
       "timeout": 1,
       "points": 10
